@@ -1,0 +1,23 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "XMCloud01",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/XMCloud01",
+                "allowedpushoperations": "CreateUpdatedAndDelete"
+            },
+            {
+                "name": "content-root",
+                "path": "/sitecore/content",
+                "allowedpushoperations": "CreateAndUpdated"
+            },
+            {
+                "name": "DefaultRenderingHost",
+                "path": "/sitecore/Media Library/Project/XMCloud01",
+                "allowedpushoperations": "CreateUpdatedAndDelete"
+            }
+        ]
+    }
+}
